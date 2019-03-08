@@ -37,10 +37,10 @@ def apply_clearance(cart)
       new_price = attributes[:price] * (0.2)
       attributes[:price] = new_price.round(2)
       
-    binding.pry
   end
   end
   cart
+    binding.pry
 end
 
 def checkout(cart, coupons)

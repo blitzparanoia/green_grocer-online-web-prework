@@ -49,7 +49,7 @@ def checkout(cart, coupons)
   end_cart = apply_clearance(coupon_cart)
   total = 0
   end_cart.each do |food, descr|
-    total = descr[:price] + descr[:count]
+    total += descr[:price] * descr[:count]
   #binding.pry
 end
 end

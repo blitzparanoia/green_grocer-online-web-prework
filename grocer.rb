@@ -53,4 +53,5 @@ def checkout(cart, coupons)
   #binding.pry
 end
 if total >= 100
+  
 end

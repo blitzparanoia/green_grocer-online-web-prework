@@ -48,7 +48,7 @@ def checkout(cart, coupons)
   coupon_cart = apply_coupons(consolidate_cart,coupons)
   end_cart = apply_clearance(coupon_cart)
   total = 0
-  end_cart.each do |food, description|
+  end_cart.each do |food, descr|
     
   binding.pry
 end

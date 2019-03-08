@@ -50,6 +50,6 @@ def checkout(cart, coupons)
   total = 0
   end_cart.each do |food, descr|
     
-  binding.pry
+  #binding.pry
 end
 end

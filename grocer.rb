@@ -36,6 +36,7 @@ def apply_clearance(cart)
     if attributes[:clearance]
       new_price = attributes[:price] * (0.2)
       
+      
     #binding.pry
   end
   end
